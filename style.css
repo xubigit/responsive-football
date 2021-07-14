@@ -1,0 +1,178 @@
+/*------------------------------------ 
+ FONTS 
+------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------------------------
+ NAVIGATION BAR STYLES
+------------------------------------*/
+
+.container{
+    background: #2D25A0;
+    width: 1250px;
+    height: 600px;
+}
+.menu{
+    margin-top: 42px;
+}
+.login{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    margin-right: 123px;
+    margin-top: 42px;
+    padding-left: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 156px;
+    font-size: 16px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+/*------------------------------------
+ TEXT AND IMAGE STYLES
+------------------------------------*/
+
+.text-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.title{
+    width: 50%;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 156px;
+}
+.watch-now{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    text-align: center;
+    padding-bottom: 10px;
+    transition: transform 1s ease-in-out 0.3s;
+}
+.watch-now:hover{
+    transform: scale(0.45);
+}
+.watch-now a{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+.title img{
+    width: 556px;
+    height: 438px;
+    margin-right: 147.99px;
+    margin-top: 65px;
+    transition: transform 2.5s;
+}
+.title img:hover{
+    transform: rotate(360deg);
+}
+.fa-arrow-right{
+    height: 24px;
+    width: 24px;
+}
+
+/*------------------------------------
+ PLAYERS STYLES
+------------------------------------*/
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 50px;
+}
+.player{
+    box-shadow: lightgray 5px 5px 15px 10px;
+
+}
+.player img{
+    width: 330px;
+    height: 256px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.player-info{
+    margin-left: 10px;
+}
+
+/*------------------------------------
+ SIGN-UP STYLES
+------------------------------------*/
+
+.extra-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.signup{
+    background-color: purple;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    color: white;
+}
+.signup-details{
+    margin-left: 20px;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+}
+.signup-form button{
+    background-color: purple;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/*------------------------------------
+ TABLE STYLES
+------------------------------------*/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 6px;
+    text-align: left;
+  }
+
+  /*------------------------------------
+   LOGO AND FOOTER STYLES
+  ------------------------------------*/
+
+.last-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 483.87px;
+}
+.fab{
+    color: #969BAB;
+    margin-right: 30px;
+    font-size: 25px;
+}
+footer{
+    font-size: 14px;
+}
