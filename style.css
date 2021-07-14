@@ -1,5 +1,5 @@
 /*------------------------------------ 
- FONTS 
+    FONTS 
 ------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
@@ -10,7 +10,7 @@ body{
 }
 
 /*------------------------------------
- NAVIGATION BAR STYLES
+    NAVIGATION BAR STYLES
 ------------------------------------*/
 
 .container{
@@ -43,7 +43,7 @@ nav a {
 }
 
 /*------------------------------------
- TEXT AND IMAGE STYLES
+    TEXT AND IMAGE STYLES
 ------------------------------------*/
 
 .text-image{
@@ -91,7 +91,7 @@ nav a {
 }
 
 /*------------------------------------
- PLAYERS STYLES
+    PLAYERS STYLES
 ------------------------------------*/
 
 .players{
@@ -115,7 +115,7 @@ nav a {
 }
 
 /*------------------------------------
- SIGN-UP STYLES
+    SIGN-UP STYLES
 ------------------------------------*/
 
 .extra-flex{
@@ -144,7 +144,7 @@ nav a {
 }
 
 /*------------------------------------
- TABLE STYLES
+    TABLE STYLES
 ------------------------------------*/
 
 table, th, td {
@@ -157,7 +157,7 @@ table, th, td {
   }
 
   /*------------------------------------
-   LOGO AND FOOTER STYLES
+    LOGO AND FOOTER STYLES
   ------------------------------------*/
 
 .last-flex{
@@ -175,4 +175,42 @@ table, th, td {
 }
 footer{
     font-size: 14px;
+}
+
+/*------------------------------------ 
+    MEDIA QUERIES | MOBILE DEVICE
+------------------------------------*/
+
+@media only screen and (max-width: 689px) {
+    /* .menu{
+        display: none;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+    .login{
+        display: none;
+        position: absolute;
+        left: 40%;
+        top: 22%;
+    } */
+    /* .title img{
+        position: absolute;
+        font-size: 10px;
+        right: 0%;
+        left: 0%;
+        top: 2%;
+    } */
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .player{
+        flex-direction: column;
+    }
+    .title{
+        width: 100%;
+    }
 }
